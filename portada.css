@@ -1,0 +1,212 @@
+#p{
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+    margin-top: 16%;
+    margin-left: 7%;
+    background-color: rgb(58, 236, 73);
+    border: outset 5px rgb(54, 128, 11);
+    border-radius: 5px;
+    color: rgb(29, 27, 27);
+    font-family: palatino;
+
+}
+#c{
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    margin-left: 7%;
+    background-color: rgb(236, 58, 58);
+    border: outset 5px rgb(211, 24, 24);
+    border-radius: 5px;
+    color: lemonchiffon;
+    font-family: palatino;
+    
+    
+}
+#p:hover{
+   
+    background-color: rgb(52, 184, 63);
+  
+   
+
+}
+#c:hover{
+   
+    background-color: rgb(161, 41, 41);
+    
+   
+    
+    
+}
+#body{
+    background-image: url("fondo.gif");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+#bodyy{
+    background-image: url("f7.png");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 7%;
+}
+
+#bc{
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    margin-top: 12%;
+    margin-left: 40%;
+    background-color: rgb(132, 195, 236);
+    border: outset 10px rgb(37, 153, 153);
+    border-radius: 5px;
+    color: rgb(29, 27, 27);
+    transition: .5s;
+    font-family: palatino;
+}
+#bc:hover{
+    
+    background-color: rgb(37, 153, 153);
+    border-style:outset;
+    color: aliceblue;
+    border: outset 10px  rgb(35, 133, 133);
+   
+}
+
+.portadag{
+  
+    width: 18%;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: auto;
+    border: 2px outset rgb(200, 247, 243);
+}
+.portadag:hover{
+    border: 5px outset rgb(176, 236, 79);
+
+}
+
+
+
+#g1{
+    margin-top: auto;
+    background-image: url("coco.png");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+
+}
+
+
+
+#g2{
+    margin-top: auto;
+    background-image: url("gd.png");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+
+}
+
+
+#g3{
+    margin-top: auto;
+    background-image: url("gm.png");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+
+}
+
+
+#g4{
+    margin-top: auto;
+    background-image: url("ge.png");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+
+}
+
+
+#g5{
+    margin-top: auto;
+    background-image: url("sd.png");
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+
+}
+
+
+
+
+.fondo{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    transition: .4s ease all;
+    transform: scale(1);
+    
+
+    
+}
+.fondo.active{
+    visibility: visible;
+    transition: .4s ease all;
+    transform: scale(1.1);
+}
+
+
+#information{
+    font-family: palatino;
+    
+    position: fixed;
+    width: 61%;
+    height: 64%;
+   margin-left: 17%;
+   margin-right: 40%;
+   margin-top:6%;
+   margin-bottom: 5%;
+   display: block;
+   align-items: center;
+   justify-content: center;
+    background-color: rgb(113, 122, 155);
+    border: 10px  outset rgb(238, 238, 238);
+    border-radius: 15px;
+    size: 40px;
+    transition: .3s ease all;
+    transform: scale(0.9);
+    font-family: palatino;
+  
+   
+}
+
+
+
+#X{
+    margin-left: 97%;
+    font-size: 25px;
+    position: relative;
+    margin-top: 5px;
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    color: rgb(235, 228, 228);
+    transition: .3s ease all;
+}
+#X:hover{
+   
+    color: rgb(248, 103, 103) !important;
+   
+}

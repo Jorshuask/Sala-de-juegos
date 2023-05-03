@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#fondo{
+    background-image: url("fondom.gif");
+    
+
+   
+}
+
+.contenedor {
+    padding: 0px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(164, 129, 165);
+    border: rgb(179, 11, 128) 5px inset ;
+}
+
+
+#player {
+    background-color: rgb(117, 138, 209);
+    border: white 8px outset;
+    width: 50px;
+    height: 50px;
+    border-start-start-radius: 29px;
+    position: absolute;
+    transition: all 0.3s
+}
+
+
+.pointer {
+    background-color: #444;
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 0px;
+    color: lavender;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    font-style: oblique;
+}
+
+
+
+#regresar{
+    width: 35px;
+    height: 25px;
+    background: rgb(241, 241, 241);
+    color: rgb(54, 108, 129);
+    transition: .4s;
+    font-size: 15px;
+    font-family: palatino;
+    border: 3px solid rgb(28, 53, 63) ;
+  
+  }
+  #regresar:hover{
+    background-color: rgb(69, 128, 151);
+    color: rgb(241, 241, 241) ;
+   
+  }
+
+
+
+  
+  
+.fondo{
+    background: rgba(0,0,0,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    transition: .4s ease all;
+    transform: scale(1);
+    
+  
+    
+  }
+  .fondo.active{
+    visibility: visible;
+    transition: .4s ease all;
+    transform: scale(1.1);
+  }
+  
+  
+  #information{
+  
+    font-family: palatino;
+    
+    position: fixed;
+    width: 41%;
+    height: 64%;
+   margin-left: 28%;
+   margin-right: 40%;
+   margin-top:6%;
+   margin-bottom: 5%;
+   display: block;
+   align-items: center;
+   justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 10px  outset rgb(238, 238, 238);
+    border-radius: 15px;
+    size: 40px;
+    transition: .3s ease all;
+    transform: scale(0.9);
+    font-family: palatino;
+  
+   
+  }
+  
+  
+  
+  
+  
+  #ok{
+    
+    width: 150px;
+    height: 45px;
+    background: rgb(122, 226, 131);
+    color: rgb(59, 59, 59);
+    transition: .4s;
+    font-size: 17px;
+    font-family: palatino;
+   
+  
+  }
+  #ok:hover{
+    background: rgb(235, 76, 76);
+    color: white;
+  
+  
+  }
+  
+  #tn{
+   
+    width: 210px;
+    height: auto;
+    margin-top: 15px;
+    
+  
+    margin-bottom: 50px;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buscar al astronauta</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <body background="./img/Fondo.png" width="1920" height="1080">
+
+    <header><Center><h1>¡ENCUENTRA AL ASTRONAUTA PERDIDO!</h1> <p id="distance"></p></Center></header>
+
+    <img src="img/Mapa.gif" controls width="650" height="400" id="map" draggable="false">
+
+    <script src="js/helper.js" charset="utf-8"></script>
+    <script src="js/game.js" charset="utf-8"></script>
+    <button id="button2" type="button" onclick="Tesoro()"><span></span>Volver</button>
+    <script>
+        function Tesoro() {
+            window.location = "portada.html";
+            
+        }
+    </script>
+    <div class="fondo" id="fon">
+      <fieldset id="information">
+       
+          <h2 id="Texto1" style="text-align: center; color: #00FFFF;">FELICIDADES HUMANO</h2>
+          <h3 id="Texto2" style="text-align: center; color: #00FFFF;">¡Encontraste al astronauta con <samp id="tc"></samp> clicks!</h3>
+          
+        <img id="as" src="img/ASTRONAUTA.gif"><br><br><br>
+         <center><button type="button" id="button5" onclick="ok()">OK<span></span></button></center> 
+          
+        </fieldset>
+     </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/Alerts.js"></script>
+  </body>
+</html>
